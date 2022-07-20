@@ -17,8 +17,16 @@
 #     return total
 # print(merafunction('lovjeet'))
 
-def generate_passwd(usrname,passwd):
-    name=usrname[:4]
-    passwrd=passwd[-4:]
-    return name+passwrd
-print(generate_passwd('push','12345'))
+# def generate_passwd(usrname,passwd):
+#     name=usrname[:4]
+#     passwrd=passwd[-4:]
+#     return name+passwrd
+# print(generate_passwd('push','12345))
+
+
+
+def even_(val):
+    for i in val:
+        if i%2==0:
+            print(i)
+even_([1,2,3,4,77,44,22,55,33,226])            
